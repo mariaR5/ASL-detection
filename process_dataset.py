@@ -46,9 +46,10 @@ for class_path in os.listdir(dataset_path):
                     data_aux.append(x - min(x_))
                     data_aux.append(y - min(y_))
 
-        # Append all landmark coordinates along with their class       
-        data.append(data_aux)
-        label.append(class_path)
+        # Append all landmark coordinates along with their class    
+        if len(data_aux) == 42:   
+            data.append(data_aux)
+            label.append(class_path)
 
     print(f'Class : {class_path} complete')
 
