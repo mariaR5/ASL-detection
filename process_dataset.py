@@ -29,6 +29,10 @@ for class_path in os.listdir(dataset_path):
         if results.multi_hand_landmarks:
             for hand_landmarks in results.multi_hand_landmarks:
 
+                # Check if image as 21 landmarks
+                if len(hand_landmarks.landmark) != 21:
+                    continue
+
                 # Collect raw x and y coordinates of each landmark
                 for i in range(len(hand_landmarks.landmark)):
                     x_.append(hand_landmarks.landmark[i].x)
