@@ -29,5 +29,5 @@ print(f'Accuracy = {accuracy*100}%')
 
 # Save model in a pickle file
 with open('model.pkl', 'wb') as f:
-    pickle.dump('model.pkl', f)
+    pickle.dump(model, f)
     print('Model saved successfully.')
