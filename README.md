@@ -47,6 +47,16 @@ Run the live ASL detector using your webcam. The model predicts and displays the
 
 ---
 
+## ASL Detection in Action
+
+| Sign 1 | Sign 2 |
+|--------|--------|
+| ![Letter K](images/asl_K.png) | ![Letter Y](images/asl_Y.png) |
+| Sign 3 | Sign 4 |
+| ![Letter N](images/asl_N.png) | ![Letter W](images/asl_W.png) |
+
+---
+
 ##  Tech Stack
 
 - **Language**: Python
