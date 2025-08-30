@@ -47,9 +47,26 @@ Run the live ASL detector using your webcam. The model predicts and displays the
 
 ---
 
+## ASL Detection in Action
+
+| Sign 1 | Sign 2 |
+|--------|--------|
+| ![Letter K](images/asl_K.png) | ![Letter Y](images/asl_Y.png) |
+| Sign 3 | Sign 4 |
+| ![Letter N](images/asl_N.png) | ![Letter W](images/asl_W.png) |
+
+---
+
 ##  Tech Stack
 
 - **Language**: Python
 - **Libraries**: OpenCV, MediaPipe, Scikit-learn, NumPy, Pickle
 - **Model**: Random Forest (Scikit-learn)
 
+---
+
+###  Reference
+
+Based on: 
+[Sign language detection with Python and Scikit Learn (by Computer vision engineer)l]
+[https://www.youtube.com/watch?v=sz25xxF_AVE]
